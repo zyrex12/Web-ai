@@ -1,7 +1,7 @@
 'use client'
 
-import ChatBox from '@/components/ChatBox'
-import PersonalitySelector from '@/components/PersonalitySelector'
+import ChatBox from '../components/ChatBox'
+import PersonalitySelector from '../components/PersonalitySelector'
 import { useState } from 'react'
 
 export default function Home() {
