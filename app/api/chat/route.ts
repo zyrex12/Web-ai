@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { getOpenAIResponse } from '@/lib/openai'
+import { getOpenAIResponse } from '../../../lib/openai'
 
 export async function POST(req: Request) {
   const { messages, personality } = await req.json()
