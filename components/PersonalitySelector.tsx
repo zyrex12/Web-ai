@@ -24,7 +24,7 @@ export default function PersonalitySelector({ onChange }: { onChange: (v: string
         <option value="custom">Custom...</option>
       </select>
 
-      {custom !== '' || custom === 'custom' ? (
+      {custom === 'custom' ? (
         <input
           type="text"
           placeholder="Describe custom personality"
